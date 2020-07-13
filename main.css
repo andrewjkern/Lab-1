@@ -1,0 +1,101 @@
+.parent-container {
+    width: 700px;
+    height: 700px;
+    background: #f9fafc;
+}
+
+.chirpus-inc {
+    
+    height: auto;
+}
+
+.nav-list{
+    
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: flex-end;  
+    position: relative; left:280px;
+}
+  
+.hire-us {
+      padding-left: 10px;
+      width: auto;
+      display: flex;
+
+  }
+
+  li {
+      padding: 10px;
+      font-size: 15px;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 50px;
+  }
+
+  button {
+      color: white;
+      background-color: #000;
+      border-radius: 45px;
+      
+  }
+   
+.circles {
+    width: 300px;
+    height: 150px;
+    float: right;
+    padding-top: 80px;
+
+}
+
+.circle-one {
+    background-color: rgb(247, 135, 167, 0.6);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle-two {
+    background-color: rgb(207, 130, 213, 0.6);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    transform: translate(160px, 5px);
+    position: absolute;
+    
+}
+
+.circle-three {
+    background-color: rgb(247, 193, 162, 0.7);
+    height: 130px;
+    width: 130px;
+    transform: translate(150px, 80px);
+    border-radius: 100%;
+    
+}
+
+p{
+    border-left: 3px solid lightgrey;
+    padding-left: 15px;
+    width: 350px;
+    font-size: 12px;
+    font-weight: normal 800;
+}
+
+.enclosure {
+    
+    margin-bottom: 100px;
+}
+.paragraph {
+    float: left;
+}
+.scroll-down {
+    position: relative; right: -250px;top: 200px;
+}
